@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_pGjYoNH2EfClWqvI2V5o6Q" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_pGjYodH2EfClWqvI2V5o6Q" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_IN"/>
+    <contextParameter xmi:id="_pGjYotH2EfClWqvI2V5o6Q" comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_OUT"/>
+    <contextParameter xmi:id="_pGjYo9H2EfClWqvI2V5o6Q" comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_dev.txt"/>
+    <contextParameter xmi:id="_pGjYpNH2EfClWqvI2V5o6Q" comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dep_dev.txt"/>
+    <contextParameter xmi:id="_I93vgNH3EfClWqvI2V5o6Q" comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=","/>
+    <contextParameter xmi:id="_qW6jkNISEfClWqvI2V5o6Q" comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="default"/>
+    <contextParameter xmi:id="_qW7KoNISEfClWqvI2V5o6Q" comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_output"/>
+    <contextParameter xmi:id="_qW7KodISEfClWqvI2V5o6Q" comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="YYYY-MM-DD"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_pGjYpdH2EfClWqvI2V5o6Q" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_pGjYptH2EfClWqvI2V5o6Q" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_IN"/>
+    <contextParameter xmi:id="_pGjYp9H2EfClWqvI2V5o6Q" comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_OUT"/>
+    <contextParameter xmi:id="_pGjYqNH2EfClWqvI2V5o6Q" comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_dev.txt"/>
+    <contextParameter xmi:id="_pGjYqdH2EfClWqvI2V5o6Q" comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dep_dev.txt"/>
+    <contextParameter xmi:id="_I93vgdH3EfClWqvI2V5o6Q" comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=","/>
+    <contextParameter xmi:id="_qW7KotISEfClWqvI2V5o6Q" comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_qW7Ko9ISEfClWqvI2V5o6Q" comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_output"/>
+    <contextParameter xmi:id="_qW7KpNISEfClWqvI2V5o6Q" comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="YYYY-MM-DD"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_pGjYqtH2EfClWqvI2V5o6Q" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_pGjYq9H2EfClWqvI2V5o6Q" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\PROD\PROD_IN"/>
+    <contextParameter xmi:id="_pGjYrNH2EfClWqvI2V5o6Q" comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\PROD\PROD_OUT"/>
+    <contextParameter xmi:id="_pGjYrdH2EfClWqvI2V5o6Q" comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_prod.txt"/>
+    <contextParameter xmi:id="_pGjYrtH2EfClWqvI2V5o6Q" comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dep_prod.txt"/>
+    <contextParameter xmi:id="_I93vgtH3EfClWqvI2V5o6Q" comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=","/>
+    <contextParameter xmi:id="_qW7KpdISEfClWqvI2V5o6Q" comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod"/>
+    <contextParameter xmi:id="_qW7KptISEfClWqvI2V5o6Q" comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_output"/>
+    <contextParameter xmi:id="_qW7Kp9ISEfClWqvI2V5o6Q" comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="YYYY-MM-DD"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_pGjYr9H2EfClWqvI2V5o6Q" confirmationNeeded="false" hide="false" name="UAT">
+    <contextParameter xmi:id="_pGjYsNH2EfClWqvI2V5o6Q" comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\UAT\UAT_IN"/>
+    <contextParameter xmi:id="_pGjYsdH2EfClWqvI2V5o6Q" comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\RameshKumarChaubey\UAT\UAT_OUT"/>
+    <contextParameter xmi:id="_pGjYstH2EfClWqvI2V5o6Q" comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_uat.txt"/>
+    <contextParameter xmi:id="_pGjYs9H2EfClWqvI2V5o6Q" comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dep_uat.txt"/>
+    <contextParameter xmi:id="_I93vg9H3EfClWqvI2V5o6Q" comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=","/>
+    <contextParameter xmi:id="_qW7KqNISEfClWqvI2V5o6Q" comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="uat"/>
+    <contextParameter xmi:id="_qW7KqdISEfClWqvI2V5o6Q" comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="emp_output"/>
+    <contextParameter xmi:id="_qW7KqtISEfClWqvI2V5o6Q" comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="YYYY-MM-DD"/>
+  </talendfile:ContextType>
+</xmi:XMI>

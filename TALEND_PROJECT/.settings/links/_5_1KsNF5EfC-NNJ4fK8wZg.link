@@ -1,0 +1,116 @@
+{
+  "itemId" : "_5_1KsNF5EfC-NNJ4fK8wZg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_pF87sNH2EfClWqvI2V5o6Q",
+    "parameterList" : [ {
+      "id" : "_qW7KodISEfClWqvI2V5o6Q",
+      "name" : "date_format"
+    }, {
+      "id" : "_I93vgNH3EfClWqvI2V5o6Q",
+      "name" : "delimiter"
+    }, {
+      "id" : "_pGjYpNH2EfClWqvI2V5o6Q",
+      "name" : "dep_file_name"
+    }, {
+      "id" : "_pGjYo9H2EfClWqvI2V5o6Q",
+      "name" : "emp_file_name"
+    }, {
+      "id" : "_qW6jkNISEfClWqvI2V5o6Q",
+      "name" : "env_name"
+    }, {
+      "id" : "_pGjYodH2EfClWqvI2V5o6Q",
+      "name" : "input_dir"
+    }, {
+      "id" : "_qW7KoNISEfClWqvI2V5o6Q",
+      "name" : "output_base_file_name"
+    }, {
+      "id" : "_pGjYotH2EfClWqvI2V5o6Q",
+      "name" : "output_dir"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_pF87sNH2EfClWqvI2V5o6Q",
+    "parameterList" : [ {
+      "id" : "_qW7KpNISEfClWqvI2V5o6Q",
+      "name" : "date_format"
+    }, {
+      "id" : "_I93vgdH3EfClWqvI2V5o6Q",
+      "name" : "delimiter"
+    }, {
+      "id" : "_pGjYqdH2EfClWqvI2V5o6Q",
+      "name" : "dep_file_name"
+    }, {
+      "id" : "_pGjYqNH2EfClWqvI2V5o6Q",
+      "name" : "emp_file_name"
+    }, {
+      "id" : "_qW7KotISEfClWqvI2V5o6Q",
+      "name" : "env_name"
+    }, {
+      "id" : "_pGjYptH2EfClWqvI2V5o6Q",
+      "name" : "input_dir"
+    }, {
+      "id" : "_qW7Ko9ISEfClWqvI2V5o6Q",
+      "name" : "output_base_file_name"
+    }, {
+      "id" : "_pGjYp9H2EfClWqvI2V5o6Q",
+      "name" : "output_dir"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_pF87sNH2EfClWqvI2V5o6Q",
+    "parameterList" : [ {
+      "id" : "_qW7Kp9ISEfClWqvI2V5o6Q",
+      "name" : "date_format"
+    }, {
+      "id" : "_I93vgtH3EfClWqvI2V5o6Q",
+      "name" : "delimiter"
+    }, {
+      "id" : "_pGjYrtH2EfClWqvI2V5o6Q",
+      "name" : "dep_file_name"
+    }, {
+      "id" : "_pGjYrdH2EfClWqvI2V5o6Q",
+      "name" : "emp_file_name"
+    }, {
+      "id" : "_qW7KpdISEfClWqvI2V5o6Q",
+      "name" : "env_name"
+    }, {
+      "id" : "_pGjYq9H2EfClWqvI2V5o6Q",
+      "name" : "input_dir"
+    }, {
+      "id" : "_qW7KptISEfClWqvI2V5o6Q",
+      "name" : "output_base_file_name"
+    }, {
+      "id" : "_pGjYrNH2EfClWqvI2V5o6Q",
+      "name" : "output_dir"
+    } ]
+  }, {
+    "contextName" : "UAT",
+    "repoId" : "_pF87sNH2EfClWqvI2V5o6Q",
+    "parameterList" : [ {
+      "id" : "_qW7KqtISEfClWqvI2V5o6Q",
+      "name" : "date_format"
+    }, {
+      "id" : "_I93vg9H3EfClWqvI2V5o6Q",
+      "name" : "delimiter"
+    }, {
+      "id" : "_pGjYs9H2EfClWqvI2V5o6Q",
+      "name" : "dep_file_name"
+    }, {
+      "id" : "_pGjYstH2EfClWqvI2V5o6Q",
+      "name" : "emp_file_name"
+    }, {
+      "id" : "_qW7KqNISEfClWqvI2V5o6Q",
+      "name" : "env_name"
+    }, {
+      "id" : "_pGjYsNH2EfClWqvI2V5o6Q",
+      "name" : "input_dir"
+    }, {
+      "id" : "_qW7KqdISEfClWqvI2V5o6Q",
+      "name" : "output_base_file_name"
+    }, {
+      "id" : "_pGjYsdH2EfClWqvI2V5o6Q",
+      "name" : "output_dir"
+    } ]
+  } ]
+}

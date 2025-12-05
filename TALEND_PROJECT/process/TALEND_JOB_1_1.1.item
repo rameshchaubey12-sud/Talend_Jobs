@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="YYYY-MM-DD" internalId="_I-bQsNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="," internalId="_I-bQsdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="dep_dev.txt" internalId="_I-bQstIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_dev.txt" internalId="_I-bQs9IZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="default" internalId="_I-bQtNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_IN" internalId="_I-bQtdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_output" internalId="_I-bQttIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_OUT" internalId="_I-bQt9IZEfClWqvI2V5o6Q"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="YYYY-MM-DD" internalId="_I-bQuNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="," internalId="_I-bQudIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="dep_dev.txt" internalId="_I-bQutIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_dev.txt" internalId="_I-bQu9IZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="dev" internalId="_I-bQvNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_IN" internalId="_I-bQvdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_output" internalId="_I-bQvtIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\DEV\DEV_OUT" internalId="_I-bQv9IZEfClWqvI2V5o6Q"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="YYYY-MM-DD" internalId="_I-bQwNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="," internalId="_I-bQwdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="dep_prod.txt" internalId="_I-bQwtIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_prod.txt" internalId="_I-bQw9IZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="prod" internalId="_I-bQxNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\PROD\PROD_IN" internalId="_I-bQxdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_output" internalId="_I-bQxtIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\PROD\PROD_OUT" internalId="_I-bQx9IZEfClWqvI2V5o6Q"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="UAT">
+    <contextParameter comment="" name="date_format" prompt="date_format?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="YYYY-MM-DD" internalId="_I-bQyNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="delimiter" prompt="delimiter?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="," internalId="_I-bQydIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="dep_file_name" prompt="dep_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="dep_uat.txt" internalId="_I-bQytIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="emp_file_name" prompt="emp_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_uat.txt" internalId="_I-bQy9IZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="env_name" prompt="env_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="uat" internalId="_I-bQzNIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="input_dir" prompt="input_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\UAT\UAT_IN" internalId="_I-bQzdIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_base_file_name" prompt="output_base_file_name?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="emp_output" internalId="_I-bQztIZEfClWqvI2V5o6Q"/>
+    <contextParameter comment="" name="output_dir" prompt="output_dir?" promptNeeded="false" repositoryContextId="_pF87sNH2EfClWqvI2V5o6Q" type="id_String" value="C:\Users\RameshKumarChaubey\UAT\UAT_OUT" internalId="_I-bQz9IZEfClWqvI2V5o6Q"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -44,7 +83,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:dPNb8yE+y6l92RRIBgDwukqaLzLHVWt6nRjRs+nx" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:4tTT2R+Luo40Ga2xkAhz8TLyE32tJqwBHUxsBaV0" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -79,7 +118,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IQEzr5D9R/FbhhS2igeSCPoIH7UZMruuS4ZGuMrN" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XfdccDIeUiaG/VDJZI+PWdIw+bRHDKtLSYUejN41" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -99,16 +138,16 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="160">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/RameshKumarChaubey/OneDrive - IBM/Desktop/talend_exp/emp_details.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.input_dir + &quot;/&quot; + context.emp_file_name"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.delimiter"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
@@ -157,7 +196,7 @@
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="emp_details"/>
+    <elementParameter field="TEXT" name="LABEL" value="emp_details "/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_3">
       <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -299,11 +338,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/RameshKumarChaubey/OneDrive - IBM/Desktop/talend_exp/dept_details.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.input_dir + &quot;/&quot; + context.dep_file_name"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.delimiter"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
@@ -363,11 +402,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/RameshKumarChaubey/OneDrive - IBM/Desktop/talend_exp/emp_left_dept_1.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.output_dir + &quot;/&quot; + context.output_base_file_name + &quot;_&quot; + context.env_name + &quot;_&quot; + TalendDate.formatDate(&quot;yyyy-MM-dd&quot;, TalendDate.getCurrentDate()) + &quot;.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.delimiter"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false"/>
@@ -400,6 +439,32 @@
       <column comment="" key="false" length="-1" name="dname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="dep_total_emp_count" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;========== Context Information ==========&quot;);&#xA;System.out.println(&quot;Environment Used : &quot; + contextStr);&#xA;System.out.println(&quot;Input Directory  : &quot; + context.input_dir);&#xA;System.out.println(&quot;Output Directory : &quot; + context.output_dir);&#xA;System.out.println(&quot;Employee File    : &quot; + context.emp_file_name);&#xA;System.out.println(&quot;Department File  : &quot; + context.dep_file_name);&#xA;System.out.println(&quot;Delimiter        : &quot; + context.delimiter);&#xA;System.out.println(&quot;==========================================&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1"/>
   </node>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -440,10 +505,23 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileInputDelimited_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
   <note opaque="true" posX="400" posY="360" sizeHeight="80" sizeWidth="120" text="1_Emp_left_Dept&#xD;&#xA;"/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;0"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
 </talendfile:ProcessType>
